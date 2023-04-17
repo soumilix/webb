@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:20px 40px;
+    font-size: 16px;
+    padding: 5px 20px 15px 20px;
+    background-color:#f2f2f2;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    color: rgb(red, green, rgb(50, 50, 51));
+} 
+.main_heading{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"]
+input[type="password"],
+select,textarea{
+    width: 100%;
+}
+
+input[type="submit"]{
+    border:none;
+    background-color:#119889;
+    color:white;
+    padding: 10px 5px;
+    width:100%;
+    cursor:pointer;
+    border-radius: 5px;
+
+}
+.crecard , .decard, .uupi{
+    height: 1cm;
+    width: 1.5cm;
+} 
